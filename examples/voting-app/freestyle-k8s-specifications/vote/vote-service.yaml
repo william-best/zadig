@@ -22,7 +22,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: vote-e2e-10x-$Namespace$.ko.coderover.cn
+  - host: vote-e2e-10x-$Namespace$.c79f7013d94ef4a0b826101ee6b099d55.cn-huhehaote.alicontainer.com
     http:
       paths:
       - path: /
